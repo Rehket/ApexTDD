@@ -1,0 +1,5 @@
+RequestFactory*
+.sfdx/orgs*
+.sfdx/indexes*
+.sfdx/tools*
+.sfdx/typings*
