@@ -15,12 +15,12 @@ global without sharing class ResponseMock implements HttpCalloutMock {
             when 'http://test.com/' {
                 res.setHeader('Content-Type', 'application/json');
                 res.setBody(response_data_map.get('http://test.com/'));
-                res.setStatusCode(200);
+                res.setStatusCode(201);
                 return res;
             }
             when else {
                 res.setHeader('Content-Type', 'application/json');
-                res.setBody('{"message": "ok"}');
+                res.setBody('{"message": "not found"}');
                 res.setStatusCode(404);
                 return res;
             }
