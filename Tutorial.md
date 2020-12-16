@@ -108,3 +108,4 @@ Now we have all the individual pieces to get our code to compile.
 
 From this point until the scenario is satisfied, Stub, Test, and code to satisfy the tests until the scenarios are satisfied. 
 ![](docs\src\testing_loop.png)
+
